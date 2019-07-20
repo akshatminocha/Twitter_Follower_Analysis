@@ -18,6 +18,8 @@ On completion of this project, I became more clear with the application of  clas
 2) At first, mostly all of the possible features were obtained with the help of api and were checked for any redundant or null  values.
 3) The redundant attributes were dropped and the rest of the categorical data(true/false) was converted to numerical (1/0) form.
 
+(Tried using nlp for textual data but no success, so used the concept of keyword search in description and created dummy variables).
+
 # Model Implementation
 1) The preprocessed data was divided into train/test data and was used for different classification models.
 2) Initially, Random Forest Classifier and Logistic models were applied, which gave no good results (due to wide variation in the 0/1 samples)
